@@ -1,8 +1,7 @@
-## Demo of Two-Stage Learning and Fusion Network with Noise Aware for Time-Domain Monaural Speech Enhancement
+## Demo audio files of "Two-Stage Learning and Fusion Network with Noise Aware for Time-Domain Monaural Speech Enhancement"
 
-You can use the [editor on GitHub](https://github.com/Xiaoxx18/Xiaoxx18.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+# Authors: Xiaoxiao Xiang, Xiaojuan Zhang, Haozhe Chen
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
