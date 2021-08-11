@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AB Subjective Listening Test Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+  <script type="text/javascript" src="./download.js"></script>
+  <!-- <script type="text/javascript" src="./config_AB.js"></script> -->
+  <!-- <script type="text/javascript" src="./config_ABX.js"></script> -->
+  <script type="text/javascript" src="./main.js"></script>
+  
+</head>
+
+<body> <!-- onload="init();">-->
+<div>
+  <h1>OUR v.s. DCRN, Seen 0dB</h1>
+  <p id="question" class="question"></p>
+</div>
+
+
+
+<div class="btn-ab" align="center">
+  <table class="tg" align="center"><!--style="undefined;table-layout: fixed; width: 493px">-->
+    <colgroup>
+      <col style="width: 85px">
+      <col style="width: 300px">
+      <col style="width: 300px">
+      <col style="width: 300px">
+      <col style="width: 300px">
+      <col style="width: 300px">
+	  <col style="width: 300px">
+    </colgroup>
+    <thead>
+      <tr>
+        <th class="tg-c3ow"></th>
+        <th class="tg-c3ow">Noisy</th>
+		<th class="tg-c3ow">Clean</th>
+        <th class="tg-c3ow">A</th>
+        <th class="tg-c3ow">B</th>
+      </tr>
+    </thead>
+    <tbody>
+	  
+	  <tr>
+        <td class="tg-pcvp">test1</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__4_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__4_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__4_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__4_est.wav"></audio></td>
+      </tr>
+
+
+	  <tr>
+        <td class="tg-pcvp">test2</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__10_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__10_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__10_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__10_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test3</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__18_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__18_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__18_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__18_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test4</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__26_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__26_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__26_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__26_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test5</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__33_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__33_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__33_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__33_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test6</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__38_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__38_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__38_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__38_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test7</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__44_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__44_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__44_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__44_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test8</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__50_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__50_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__50_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__50_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test9</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__58_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__58_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__58_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__58_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test10</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__67_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__67_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__67_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__67_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test11</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__76_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__76_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__76_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__76_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test12</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__85_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__85_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__85_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__85_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test13</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__103_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__103_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__103_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__103_est.wav"></audio></td>
+      </tr>
+	  <tr>
+        <td class="tg-pcvp">test14</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__112_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__112_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__112_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__112_est.wav"></audio></td>
+      </tr>
+	  
+	  <tr>
+        <td class="tg-pcvp">test15</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__119_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__119_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__119_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__119_est.wav"></audio></td>
+      </tr>
+	  
+	  <tr>
+        <td class="tg-pcvp">test16</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__125_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__125_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__125_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__125_est.wav"></audio></td>
+      </tr>
+	  
+	  <tr>
+        <td class="tg-pcvp">test17</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__134_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__134_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__134_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__134_est.wav"></audio></td>
+      </tr>
+	  
+	  <tr>
+        <td class="tg-pcvp">test18</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__141_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__141_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__141_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__141_est.wav"></audio></td>
+      </tr>
+	  
+	  <tr>
+        <td class="tg-pcvp">test19</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__147_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__147_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__147_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__147_est.wav"></audio></td>
+      </tr>
+	  
+	  <tr>
+        <td class="tg-pcvp">test20</td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__150_mix.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/clean-mix/test_seen_0.0dB__150_cln.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/merge/test_seen_0.0dB__150_est.wav"></audio></td>
+        <td class="tg-ihkz"><audio controls="">
+            <source src="seen_0_merge-dcrn/dcrn/test_seen_0.0dB__150_est.wav"></audio></td>
+      </tr>
+	  
+	  
+	  <tr>
+	  </tr>
+    </tbody>
+  </table>
+</div>
+
+<div ></div>
+
+<div class="btn-end">
+	<button id="next" onclick="nextHtml5()">next </button>
+</div>
+
+</body>
+</html>
