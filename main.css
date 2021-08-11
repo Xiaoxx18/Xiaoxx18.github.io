@@ -1,0 +1,160 @@
+html {
+  height: 100%;
+  font-family: 'Trebuchet MS';
+}
+
+body {
+  background-image: url(image/background.png) no-repeat;
+}
+
+div.placeDiv {
+	min-height: 54px;
+	min-width: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+div h1 {
+	/* none */
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+div h6 {
+	/* none */
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+div p {
+  font-size: 26px;
+  margin: 5px 50px 100px;
+}
+
+div.btn-instruction {
+  text-align: center;
+}
+
+div.btn-instruction button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background: #fff;
+  /* border: 3px solid #000; */
+}
+
+div.tg {
+	width:980px;margin-left:auto;margin-right:auto
+}
+
+div.btn-instruction button:focus {
+  outline: none;
+}
+
+
+div.btn-instruction button:hover{
+  background-color: #fcff38;
+}
+
+div.btn-choice {
+  text-align: center;
+  margin-top: 100px;
+}
+
+div.btn-choice button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background: #fff;
+  border: 3px solid #000;
+  margin: 0 50px;
+}
+
+div.btn-choice button:focus {
+  outline: none;
+}
+
+div.btn-choice button:hover{
+  background-color: #fcff38;
+}
+
+div.container-end {
+  margin-top: 20px;
+}
+
+div.btn-end {
+  text-align: center;
+}
+
+div.btn-end button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background: #fff;
+  border: 3px solid #000;
+  margin: 50px 50px 0;
+  
+}
+
+div.btn-end button:hover{
+  background-color: #fcff38;
+}
+
+div.btn-ab button {
+  width: 100px;
+  height: 50px;
+  background: url(./play.png) no-repeat;
+  background-color: white;
+  background-position: center; 
+  background-size: 8px 8px;
+  border: 3px solid #000;
+  margin: 20px 50px 0;
+  
+}
+
+div.btn-ab button:hover{
+  background-color: #fcff38;
+}
+
+div.btn-ab {
+  text-align: center;
+  width:980px;
+  margin-left:auto;
+  margin-right:auto
+}
+
+div.btn-pause button{
+  background: url(pause.png);
+}
+
+div.btn-pause button:hover{
+  background-color: #fcff38;
+}
+
+div.btn-pause {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.radio1 {
+  margin-right: 140px;
+}
+
+.radio2 {
+  margin-left: 130px;
+}
+
+.question {
+  text-align: center;
+  margin: 50px 0 30px;
+}
